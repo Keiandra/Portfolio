@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keiandra Gray | Client Success & PBM Operations Portfolio</title>
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 scroll-smooth">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div>
+                <h1 class="text-xl font-bold text-slate-900 tracking-tight">Keiandra Gray</h1>
+                <p class="text-xs text-indigo-600 font-semibold tracking-wide uppercase">Client Success & Operations Leader</p>
+            </div>
+            <nav class="flex gap-6 text-sm font-medium text-slate-600">
+                <a href="#about" class="hover:text-indigo-600 transition">About</a>
+                <a href="#audit-matrix" class="hover:text-indigo-600 transition">Risk Matrix</a>
+                <a href="#simulator" class="hover:text-indigo-600 transition">Leakage Simulator</a>
+                <a href="#incident-flow" class="hover:text-indigo-600 transition">Triage Process</a>
+            </nav>
+            <a href="mailto:kgray8421@outlook.com" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition shadow-sm">
+                <i class="fa-envelope far mr-2"></i>Contact Me
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="about" class="bg-gradient-to-br from-slate-900 to-indigo-950 text-white py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 text-xs px-3 py-1 rounded-full font-semibold uppercase tracking-wider">Project Spotlight</span>
+            <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight mt-4 mb-6 leading-tight">
+                PBM Operational Risk & Leakage Audit
+            </h2>
+            <p class="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed mb-8">
+                In the Pharmacy Benefit Management space, operational errors aren't just administrative inconveniences—they represent immediate financial losses and disrupted member care. Here is my proactive framework for managing client account health.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 text-sm">
+                <span class="bg-slate-800/80 border border-slate-700/50 px-4 py-2 rounded-lg"><i class="fa-shield-halved text-indigo-400 mr-2"></i>HIPAA Compliant</span>
+                <span class="bg-slate-800/80 border border-slate-700/50 px-4 py-2 rounded-lg"><i class="fa-calculator text-indigo-400 mr-2"></i>Data-Driven Solutions</span>
+                <span class="bg-slate-800/80 border border-slate-700/50 px-4 py-2 rounded-lg"><i class="fa-clock-rotate-left text-indigo-400 mr-2"></i>SLA Precision</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN PORTFOLIO BODY -->
+    <main class="max-w-5xl mx-auto px-4 py-16 space-y-20">
+
+        <!-- SECTION 1: THE FRICTION MATRIX -->
+        <section id="audit-matrix" class="space-y-6">
+            <div class="border-b border-slate-200 pb-4">
+                <h3 class="text-2xl font-bold text-slate-900">1. The PBM Friction Matrix</h3>
+                <p class="text-slate-500 text-sm mt-1">Proactive tracking matrix designed to mitigate critical failure points before they trigger client escalations.</p>
+            </div>
+            
+            <div class="overflow-x-auto bg-white rounded-xl shadow-sm border border-slate-200">
+                <table class="w-full text-left border-collapse text-sm">
+                    <thead>
+                        <tr class="bg-slate-50 text-slate-700 border-b border-slate-200 uppercase text-xs font-semibold tracking-wider">
+                            <th class="p-4">Issue Category</th>
+                            <th class="p-4">Operational Failure Point</th>
+                            <th class="p-4">Financial/Client Impact</th>
+                            <th class="p-4">CSM Proactive Action Plan</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200 text-slate-600">
+                        <tr class="hover:bg-slate-50/80 transition">
+                            <td class="p-4 font-semibold text-slate-900">Eligibility & Onboarding</td>
+                            <td class="p-4">Delay or mismatch in daily eligibility file feeds (834 files) from the employer's HRIS to the PBM.</td>
+                            <td class="p-4 text-red-600 font-medium">Pharmacy counter rejections; rapid spike in urgent customer service escalations.</td>
+                            <td class="p-4">Deploy automated file size/integrity alerts using automated validation workflows prior to processing.</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50/80 transition">
+                            <td class="p-4 font-semibold text-slate-900">Plan Design Configuration</td>
+                            <td class="p-4">Benefit copay tiers or formulary exclusions coded incorrectly during annual implementation cycles.</td>
+                            <td class="p-4 text-red-600 font-medium">Inaccurate member cost-sharing; contract terms breached; potential SLA penalties.</td>
+                            <td class="p-4">Conduct "Pre-Live Claim Testing" using mock claims run through the adjudication engine prior to plan launch.</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50/80 transition">
+                            <td class="p-4 font-semibold text-slate-900">Rebate & Formulary Leakage</td>
+                            <td class="p-4">Failure to align formulary restrictions with contractually guaranteed manufacturer rebates.</td>
+                            <td class="p-4 text-red-600 font-medium">Direct financial loss to the employer group; failed savings guarantees.</td>
+                            <td class="p-4">Perform quarterly rebate performance reviews comparing formulary compliance against contract guarantees.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- SECTION 2: INTERACTIVE LEAKAGE SIMULATOR -->
+        <section id="simulator" class="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm space-y-6">
+            <div class="border-b border-slate-100 pb-4">
+                <h3 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                    <i class="fa-calculator text-indigo-600"></i> Interactive PBM Savings & Leakage Simulator
+                </h3>
+                <p class="text-slate-500 text-sm mt-1">This interactive model simulates how operational tracking (eligibility error rates and rebate leakage) impacts an employer's bottom line.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Inputs -->
+                <div class="space-y-6 bg-slate-50 p-6 rounded-xl border border-slate-100">
+                    <h4 class="font-semibold text-slate-900 text-md uppercase tracking-wider text-xs">Account Parameters</h4>
+                    
+                    <div class="space-y-2">
+                        <label class="block text-xs font-bold text-slate-600 uppercase">Employer Covered Lives: <span id="lives-val" class="text-indigo-600 float-right">5,000</span></label>
+                        <input type="range" id="lives" min="1000" max="25000" step="500" value="5000" class="w-full accent-indigo-600">
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-xs font-bold text-slate-600 uppercase">Formulary Non-Compliance Rate: <span id="non-compliance-val" class="text-indigo-600 float-right">15%</span></label>
+                        <input type="range" id="non-compliance" min="0" max="50" step="1" value="15" class="w-full accent-indigo-600">
+                        <p class="text-[11px] text-slate-400">Represents claims filled outside of the preferred rebate-aligned formulary.</p>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-xs font-bold text-slate-600 uppercase">Average Monthly Cost of Brand/Specialty Rx: <span id="rx-cost-val" class="text-indigo-600 float-right">$1,200</span></label>
+                        <input type="range" id="rx-cost" min="500" max="3000" step="100" value="1200" class="w-full accent-indigo-600">
+                    </div>
+                </div>
+
+                <!-- Outputs -->
+                <div class="flex flex-col justify-between space-y-6">
+                    <div class="bg-indigo-50 border border-indigo-100 rounded-xl p-6 text-center">
+                        <span class="text-xs font-bold text-indigo-700 uppercase tracking-wide">Estimated Annual Rebate Leakage</span>
+                        <div class="text-4xl font-black text-indigo-950 mt-2" id="total-leakage">$135,000</div>
+                        <p class="text-xs text-indigo-600 mt-2">Annual savings recaptured when optimizing plan design and formulary adherence.</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <h4 class="font-bold text-slate-900 text-sm">Key Takeaway for Account Management:</h4>
+                        <div class="flex gap-3 text-sm text-slate-600">
+                            <div class="text-indigo-600 font-bold"><i class="fa-circle-check"></i></div>
+                            <p><strong>The Opportunity:</strong> Redirecting just 5% of non-compliant specialty claims to preferred channels directly recovers high-tier manufacturer rebates.</p>
+                        </div>
+                        <div class="flex gap-3 text-sm text-slate-600">
+                            <div class="text-indigo-600 font-bold"><i class="fa-circle-check"></i></div>
+                            <p><strong>The Process:</strong> I build tracking structures in SharePoint and automate reporting metrics to catch these opportunities mid-quarter, rather than end-of-year.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: TRIAGE FLOWCHART -->
+        <section id="incident-flow" class="space-y-8">
+            <div class="border-b border-slate-200 pb-4">
+                <h3 class="text-2xl font-bold text-slate-900">3. Rapid Triage Blueprint</h3>
+                <p class="text-slate-500 text-sm mt-1">Operational action plan triggered when eligibility errors prevent active plan members from receiving care.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
+                <!-- Step 1 -->
+                <div class="bg-white border border-slate-200 p-5 rounded-xl shadow-xs relative">
+                    <div class="w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-sm mb-4">1</div>
+                    <h4 class="font-bold text-slate-900 text-base mb-1">Triage & Contain</h4>
+                    <span class="text-xs text-slate-400 font-semibold uppercase block mb-3">Within 1 Hour</span>
+                    <p class="text-slate-600 text-xs leading-relaxed">Acknowledge client escalation. Coordinate with IT data operations to review the transmission logs of the most recent 834 eligibility file feed.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="bg-white border border-slate-200 p-5 rounded-xl shadow-xs relative">
+                    <div class="w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-sm mb-4">2</div>
+                    <h4 class="font-bold text-slate-900 text-base mb-1">Root Cause Analysis</h4>
+                    <span class="text-xs text-slate-400 font-semibold uppercase block mb-3">Within 4 Hours</span>
+                    <p class="text-slate-600 text-xs leading-relaxed">Isolate the root cause: investigate if the failure stems from a file transmission breakdown, a formatting rejection, or client HRIS database mismatch.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="bg-white border border-slate-200 p-5 rounded-xl shadow-xs relative">
+                    <div class="w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-sm mb-4">3</div>
+                    <h4 class="font-bold text-slate-900 text-base mb-1">Manual Safeguards</h4>
+                    <span class="text-xs text-slate-400 font-semibold uppercase block mb-3">Same Day</span>
+                    <p class="text-slate-600 text-xs leading-relaxed">Coordinate overrides directly with the pharmacy helpdesk. Ensure standing members receive their medications immediately while system repairs take place.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="bg-white border border-slate-200 p-5 rounded-xl shadow-xs relative">
+                    <div class="w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-sm mb-4">4</div>
+                    <h4 class="font-bold text-slate-900 text-base mb-1">Resolution & RCA</h4>
+                    <span class="text-xs text-slate-400 font-semibold uppercase block mb-3">Within 24-48 Hours</span>
+                    <p class="text-slate-600 text-xs leading-relaxed">Reprocess corrected data runs. Deliver a transparent incident report detailing operational steps implemented to prevent subsequent occurrence.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: REAL-WORLD EXECUTIVE SUMMARY -->
+        <section class="bg-slate-900 text-white rounded-2xl p-6 sm:p-8 space-y-4">
+            <h3 class="text-xl font-bold flex items-center gap-2"><i class="fa-file-lines text-indigo-400"></i> Case Study: Q2 Utilization & Cost-Driver Brief</h3>
+            <p class="text-slate-400 text-sm">Below is a mock executive update demonstrating my approach to simplifying complex pharmacy claims analysis for key client stakeholders.</p>
+            <div class="border-l-4 border-indigo-500 pl-4 py-2 space-y-3 bg-slate-800/40 rounded-r-lg">
+                <p class="text-slate-300 text-xs uppercase font-bold">Client Account: Acme Corp (5,000 covered lives)</p>
+                <p class="text-sm text-slate-200">
+                    <strong>The Challenge:</strong> A 14% spike in Q2 specialty spend was traced to three members starting high-cost oncology therapies. These claims bypassed our preferred specialty network, leading to missed manufacturer rebate triggers.
+                </p>
+                <p class="text-sm text-slate-200">
+                    <strong>The Resolution:</strong> Successfully coordinated with the clinical and operations departments to redirect two active therapies back to the preferred specialty network, capturing <strong>$18,500</strong> in run-rate savings. 
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 border-t border-slate-800 text-slate-400 py-12 text-center text-xs space-y-3">
+        <p class="font-semibold text-white">Keiandra Gray — Portfolio</p>
+        <p>Operations, Project Management, & Client Success Specialist</p>
+        <div class="flex justify-center gap-4 text-base mt-2">
+            <a href="mailto:kgray8421@outlook.com" class="hover:text-white transition"><i class="fa-envelope"></i></a>
+            <a href="tel:4049576405" class="hover:text-white transition"><i class="fa-phone"></i></a>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE SIMULATOR CODE -->
+    <script>
+        const livesInput = document.getElementById('lives');
+        const complianceInput = document.getElementById('non-compliance');
+        const rxCostInput = document.getElementById('rx-cost');
+
+        const livesVal = document.getElementById('lives-val');
+        const complianceVal = document.getElementById('non-compliance-val');
+        const rxCostVal = document.getElementById('rx-cost-val');
+        const leakageOutput = document.getElementById('total-leakage');
+
+        function updateSimulation() {
+            const lives = parseInt(livesInput.value);
+            const nonCompliance = parseInt(complianceInput.value);
+            const cost = parseInt(rxCostInput.value);
+
+            // Update visible slider metrics
+            livesVal.textContent = lives.toLocaleString();
+            complianceVal.textContent = nonCompliance + "%";
+            rxCostVal.textContent = "$" + cost.toLocaleString();
+
+            // Calculate estimated leakage
+            // Math model: brand prescription volume is ~3% of general covered lives annually.
+            // Rebate loss is estimated at 25% of brand cost on non-compliant claims.
+            const annualBrandRx = lives * 0.03; 
+            const nonCompliantClaims = annualBrandRx * (nonCompliance / 100);
+            const leakage = Math.round(nonCompliantClaims * cost * 0.25);
+
+            leakageOutput.textContent = "$" + leakage.toLocaleString();
+        }
+
+        [livesInput, complianceInput, rxCostInput].forEach(input => {
+            input.addEventListener('input', updateSimulation);
+        });
+
+        // Initialize calculations
+        updateSimulation();
+    </script>
+</body>
+</html>
